@@ -3,7 +3,7 @@
 declare(strict_types= 1);
 
 /**
-* Digit Software Solutions.
+* Digit Software Solution
 *
 * NOTICE OF LICENSE
 *

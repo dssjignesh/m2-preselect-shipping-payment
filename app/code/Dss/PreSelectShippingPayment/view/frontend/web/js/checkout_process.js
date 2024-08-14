@@ -1,16 +1,16 @@
 /**
- * Digit Software Solutions.
- *
- * NOTICE OF LICENSE
- *
- * This source file is subject to the EULA
- * that is bundled with this package in the file LICENSE.txt.
- *
- * @category  Dss
- * @package   Dss_PreSelectShippingPayment
- * @author    Extension Team
- * @copyright Copyright (c) 2024 Digit Software Solutions. ( https://digitsoftsol.com )
- */
+* Digit Software Solutions.
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the EULA
+* that is bundled with this package in the file LICENSE.txt.
+*
+* @category  Dss
+* @package   Dss_PreSelectShippingPayment
+* @author    Extension Team
+* @copyright Copyright (c) 2024 Digit Software Solutions. ( https://digitsoftsol.com )
+*/
 
 define([
     'jquery'
@@ -18,8 +18,6 @@ define([
     'use strict';
     $.widget('dss.dss_checkout_process', {
         _create: function () {
-
-
             var options = this.options;
 
             var defaultShipping = options.defaultShipping;
@@ -29,10 +27,7 @@ define([
             var positionShipping = options.positionShipping;
 
             $(document).ready(function() {
-
-
                 $(".box-shipping-method .methods-shipping").each(function(index) {
-
                     var checkRadioShipping = false;
                     var countObjectShipping = 0;
                     var countShipping = 0;
@@ -44,7 +39,6 @@ define([
                             checkRadioShipping = true;
                         }
                         countObjectShipping = index;
-
                     });
 
                     $(this).find("input[type=radio]").each(function(index, value){
@@ -67,15 +61,12 @@ define([
                     var countObjectPayment = 0;
                     var countPayment = 0;
                     $(this).find("input[type=radio]").each(function(index){
-
                         var paymentCode = $(this).attr("value");
                         if (paymentCode == defaultPayment) {
                             $(this).attr('checked', true);
-
                             checkRadioPayment = true;
                         }
                         countObjectPayment = index;
-
                     });
 
                     $(this).find("input[type=radio]").each(function(index, value){

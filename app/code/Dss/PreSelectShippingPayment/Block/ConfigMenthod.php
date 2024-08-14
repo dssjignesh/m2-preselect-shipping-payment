@@ -45,7 +45,7 @@ class ConfigMenthod extends Template
      *
      * @return mixed|string
      */
-    public function getShippingDefault()
+    public function getShippingDefault(): mixed
     {
         $isEnabledShipping =  $this->_scopeConfig->isSetFlag(
             'preselectshippingpayment/shipping/enable',
@@ -62,7 +62,7 @@ class ConfigMenthod extends Template
      *
      * @return mixed|string
      */
-    public function getPaymentDefault()
+    public function getPaymentDefault(): mixed
     {
         $isEnabledPayment =  $this->_scopeConfig->isSetFlag(
             'preselectshippingpayment/payment/enable',
@@ -79,7 +79,7 @@ class ConfigMenthod extends Template
      *
      * @return mixed|string
      */
-    public function getPaymentPosition()
+    public function getPaymentPosition(): mixed
     {
         $isEnabledPayment =  $this->_scopeConfig->isSetFlag(
             'preselectshippingpayment/payment/enable',
@@ -96,7 +96,7 @@ class ConfigMenthod extends Template
      *
      * @return mixed|string
      */
-    public function getShippingPosition()
+    public function getShippingPosition(): mixed
     {
         $isEnabledPayment =  $this->_scopeConfig->isSetFlag(
             'preselectshippingpayment/shipping/enable',

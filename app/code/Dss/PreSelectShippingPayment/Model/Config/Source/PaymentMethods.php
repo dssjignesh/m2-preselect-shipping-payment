@@ -23,7 +23,6 @@ use Dss\PreSelectShippingPayment\Helper\Data;
 
 class PaymentMethods implements ArrayInterface
 {
-
     /**
      * @param Data $helper
      */

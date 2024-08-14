@@ -1,6 +1,5 @@
 <?php
 
-
 declare(strict_types= 1);
 
 /**
@@ -70,7 +69,7 @@ class CompositeConfigProvider implements ConfigProviderInterface
      * @param string $field
      * @return mixed
      */
-    public function getShipingConfig($field)
+    public function getShipingConfig($field): mixed
     {
         return $this->scopeConfig->getValue(
             'preselectshippingpayment/shipping/' . $field,
@@ -84,7 +83,7 @@ class CompositeConfigProvider implements ConfigProviderInterface
      * @param string $field
      * @return mixed
      */
-    public function getPaymentConfig($field)
+    public function getPaymentConfig($field): mixed
     {
         return $this->scopeConfig->getValue(
             'preselectshippingpayment/payment/' . $field,
