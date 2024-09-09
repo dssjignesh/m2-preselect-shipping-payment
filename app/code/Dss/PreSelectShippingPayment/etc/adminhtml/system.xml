@@ -29,7 +29,7 @@
                     showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Enable</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <comment><![CDATA[Version 1.0.3]]></comment>
+                    <comment><![CDATA[Version 0.0.1]]></comment>
                 </field>
                 <field id="default" translate="label comment" type="select" sortOrder="10"
                     showInDefault="1" showInWebsite="1" showInStore="1">
