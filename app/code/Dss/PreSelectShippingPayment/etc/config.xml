@@ -19,11 +19,11 @@
     <default>
         <preselectshippingpayment>
             <shipping>
-                <enable>1</enable>
+                <enable>0</enable>
                 <position>first</position>
             </shipping>
             <payment>
-                <enable>1</enable>
+                <enable>0</enable>
                 <position>first</position>
             </payment>
         </preselectshippingpayment>
